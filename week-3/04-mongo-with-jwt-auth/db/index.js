@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
 // Connect to MongoDB
-mongoose.connect('your-mongodb-url');
+mongoose.connect('mongodb://localhost:27017/week-3-mongo-with-jwt');
 
 // Define schemas
 const AdminSchema = new mongoose.Schema({
